@@ -1,0 +1,245 @@
+﻿
+<table class="table">
+
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Imie</th>
+            <th scope="col">Nazwisko</th>
+            <th scope="col">Marka Auta</th>
+            <th scope="col">Model Auta</th>
+            <th scope="col">Data Zakończenia</th>
+            <th scope="col"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#creator" style="float: right;">Nowy Rekord</button></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var res in Model.Rentals) {
+        <tr>
+            <th scope="row">@res.id</th>
+                @foreach (var Client in Model.Clients) {
+                    if (res.Klient == Client.id) {
+                        foreach (var Cars in Model.Cars) {
+                            if (res.Samochod == Cars.id) {
+                    <td>@Client.imie</td>
+                    <td>@Client.nazwisko</td>
+                    <td>@Cars.marka</td>
+                    <td>@Cars.model</td>
+                    <td>@res.dataZakonczenia</td>
+                    <td>
+                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#@("edit" + res.id ) " style="float: right;">  Edytuj  </button>
+                    </td>
+                            }
+                        }
+                    }
+                }
+        </tr>
+        }
+    </tbody>
+</table>
+
+@foreach (var res in Model.Rentals) {
+    <!-- template modal test -->
+    <div class="modal fade" id="@("edit" + res.id )" tabindex="-1" role="dialog" aria-labelledby="test" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tryb Edycji</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-sm">
+                                <form action="@Url.Action("EditRental")" method="POST" id="@("edit_" + res.id )">
+                                    <input type="hidden" name="id" value="@res.id" />
+
+                                    <hr />
+                                    <h2>Dane Rezerwacji</h2>
+                                    <hr />
+
+                                    <div class="form-group">
+                                        <label for="email">Data rozpoczecia rezerwacji</label>
+                                        <input type="text" class="form-control" name="dataRozpoczecia" placeholder="@res.dataRozpoczecia.Date" value="@res.dataRozpoczecia.Date">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Data zakonczenia rezerwacji</label>
+                                        <input type="text" class="form-control" name="dataZakonczenia" placeholder="@res.dataZakonczenia" value="@res.dataZakonczenia">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">Koszt Rezerwacji</label>
+                                        <input type="text" class="form-control" name="cena" placeholder="@res.cena" value="@res.cena">
+                                    </div>
+                                    <hr />
+                                    <h2>Dane Klienta</h2>
+                                    <hr />
+
+                                    <!-- correct -->
+                                    <div class="form-group">
+                                        <select class="form-control" name="Klient">
+                                            @foreach (var Client in Model.Clients) {
+                                                <option value=@Client.id>@(Client.id+" - "+Client.imie+" "+Client.nazwisko)</option>
+                                            }
+                                        </select>
+                                    </div>
+
+                                    <hr />
+                                    <h2>Dane Auta</h2>
+                                    <hr />
+                                    <div class="form-group">
+                                        <select class="form-control" name="Samochod">
+                                            @foreach (var Car in Model.Cars) {
+                                                <option value=@Car.id>@(Car.id+" - "+ Car.marka+" "+ Car.model)</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="col-sm">
+                                <form action="@Url.Action("DeleteRental")" method="POST" id="@("remove_" + res.id )">
+                                    <input type="hidden" readonly name="id" value="@res.id" />
+
+                                    <hr />
+                                    <h2>Dane Rezerwacji</h2>
+                                    <hr />
+
+                                    <div class="form-group">
+                                        <label for="email">Data rozpoczecia rezerwacji</label>
+                                        <input type="text" readonly class="form-control" name="dataRozpoczecia" placeholder="@res.dataRozpoczecia.Date" value="@res.dataRozpoczecia.Date">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Data zakonczenia rezerwacji</label>
+                                        <input type="text" readonly class="form-control" name="dataZakonczenia" placeholder="@res.dataZakonczenia" value="@res.dataZakonczenia">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">Koszt Rezerwacji</label>
+                                        <input type="text" readonly class="form-control" name="cena" placeholder="@res.cena" value="@res.cena">
+                                    </div>
+                                    <hr />
+                                    <h2>Dane Klienta</h2>
+                                    <hr />
+
+                                    <!-- correct -->
+                                    <div class="form-group">
+                                        <select readonly disabled="1" class="form-control" name="Klient">
+                                            @foreach (var Client in Model.Clients) {
+                                                if (res.Klient == Client.id) {
+                                                    <option value=@Client.id>@(Client.id+" - "+Client.imie+" "+Client.nazwisko)</option>
+                                                }
+                                            }
+                                        </select>
+                                    </div>
+
+                                    <hr />
+                                    <h2>Dane Auta</h2>
+                                    <hr />
+                                    <div class="form-group">
+                                        <select readonly disabled="1" class="form-control" name="Samochod">
+                                            @foreach (var Car in Model.Cars) {
+                                                if (res.Samochod == Car.id) {
+                                                    <option selected="selected" value=@Car.id>@(Car.id+" - "+ Car.marka+" "+ Car.model)> </option>
+                                                }  
+                                            }
+
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="submit" class="btn btn-success" form="@("edit_" + res.id )">Zapisz</button>
+                    <button type="reset" class="btn btn-warning" form="@("edit_" + res.id )">Reset</button>
+                    <button type="submit" class="btn btn-danger" form="@("remove_" + res.id )">Usuń </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="modal fade" id="@("creator")" tabindex="-1" role="dialog" aria-labelledby="test" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tryb Edycji</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-sm">
+                            <form action="@Url.Action("AddRental")" method="POST" id="@("AddRental")">
+
+                                <hr />
+                                <h2>Dane Rezerwacji</h2>
+                                <hr />
+
+                                <div class="form-group">
+                                    <label for="email">Data rozpoczecia rezerwacji</label>
+                                    <input type="date" class="form-control" name="dataRozpoczecia" placeholder="" value="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Data zakonczenia rezerwacji</label>
+                                    <input type="date" class="form-control" name="dataZakonczenia" placeholder="" value="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Koszt Rezerwacji</label>
+                                    <input type="number" class="form-control" name="cena" placeholder="" value="" step=".01">
+                                </div>
+                                <hr />
+                                <h2>Dane Klienta</h2>
+                                <hr />
+
+                                <div class="form-group">
+                                    <select class="form-control" name="Klient">
+                                        @foreach (var Client in Model.Clients) {
+                                            <option value=@Client.id>@(Client.id+" - "+Client.imie+" "+Client.nazwisko)</option>}
+                                    </select>
+                                </div>
+
+                                <hr />
+                                <h2>Dane Auta</h2>
+                                <hr />
+                                <div class="form-group">
+                                    <select class="form-control" name="Samochod">
+                                        @foreach (var Car in Model.Cars) {
+                                            <option value=@Car.id>@(Car.id+" - "+ Car.marka+" "+ Car.model)</option>}
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="submit" class="btn btn-success" form="@("AddRental")">Zapisz</button>
+                <button type="reset" class="btn btn-warning" form="@("AddRental")">Reset</button>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,266 @@
+﻿
+
+
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Marka</th>
+            <th scope="col">Model</th>
+            <th scope="col">Nr Tablicy</th>
+            <th scope="col"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#creator" style="float: right;">Nowy Rekord</button></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model.Cars) {
+            <tr>
+                <th scope="row">@car.id</th>
+                <td>@car.marka</td>
+                <td>@car.model</td>
+                <td>@car.nrTablicyRej</td>
+                <td>
+                    <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#@("edit" + car.id ) " style="float: right;">  Edytuj  </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@foreach (var car in Model.Cars) {
+    <div class="modal fade" id="@("edit" + car.id )" tabindex="-1" role="dialog" aria-labelledby="test" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tryb Edycji</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-sm">
+                                <form action="@Url.Action("EditCar")" method="POST" id="@("edit_" + car.id )">
+                                    <div class="form-group">
+                                        <label for="Type">Marka</label>
+                                        <select class="form-control" name="idmarka">
+                                            @for(int i=0; i< Model.Brands.Count; i++) {
+                                            <option value=@(i+1)>@Model.Brands[i].nazwa</option>
+                                            }
+                                        </select>
+                                    </div>
+
+                                    <input type="hidden" name="id" value="@car.id" />
+
+                                    <div class="form-group">
+                                        <label for="imie">Model</label>
+                                        <input type="text" class="form-control" name="model" placeholder="@car.model" value="@car.model">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">Nr Tablicy Rejestracyjnej</label>
+                                        <input type="text" class="form-control" name="nrTablicyRej" placeholder="@car.nrTablicyRej" value="@car.nrTablicyRej">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">nr Vin</label>
+                                        <input type="text" class="form-control" name="nrVin" placeholder="@car.nrVin" value="@car.nrVin">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">Rocznik</label>
+                                        <input type="text" class="form-control" name="rocznik" placeholder="@car.rocznik" value="@car.rocznik">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">Cena wypożyczenia za 1 dzień</label>
+                                        <input type="text" class="form-control" name="cenaWypozyczenia" placeholder="@car.cenaWypozyczenia" value="@car.cenaWypozyczenia">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">Ilość dostępnych miejsc</label>
+                                        <input type="text" class="form-control" name="iloscMiejsc" placeholder="@car.iloscMiejsc" value="@car.iloscMiejsc">
+                                    </div>
+
+                                    @if (car.dostepny == false) {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Dostępny
+                                            </label>
+                                        </div>
+                                    }
+                                    else {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Dostępny
+                                            </label>
+                                        </div>
+                                    }
+
+                                </form>
+                            </div>
+
+                            <div class="col-sm">
+                                <form action="@Url.Action("DeleteCar")" method="POST" id="@("remove_" + car.id )">
+                                    <div class="form-group">
+                                        <label for="Type">Marka</label>
+                                        <select class="form-control" name="idmarka">
+                                            @for (int i = 0; i < Model.Brands.Count; i++) {
+                                                <option value=@(i+1)>@Model.Brands[i].nazwa</option>
+                                            }
+                                        </select>
+                                    </div>
+
+                                    <input type="hidden" name="id" value="@car.id" />
+
+                                    <div class="form-group">
+                                        <label for="imie">Model</label>
+                                        <input type="text" readonly class="form-control" name="model" placeholder="@car.model" value="@car.model">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">Nr Tablicy Rejestracyjnej</label>
+                                        <input type="text" readonly class="form-control" name="nrTablicyRej" placeholder="@car.nrTablicyRej" value="@car.nrTablicyRej">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">nr Vin</label>
+                                        <input type="text" readonly class="form-control" name="nrVin" placeholder="@car.nrVin" value="@car.nrVin">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">Rocznik</label>
+                                        <input type="text" readonly class="form-control" name="rocznik" placeholder="@car.rocznik" value="@car.rocznik">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">Cena wypożyczenia za 1 dzień</label>
+                                        <input type="text" readonly class="form-control" name="cenaWypozyczenia" placeholder="@car.cenaWypozyczenia" value="@car.cenaWypozyczenia">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="imie">Ilość dostępnych miejsc</label>
+                                        <input type="text" readonly class="form-control" name="iloscMiejsc" placeholder="@car.iloscMiejsc" value="@car.iloscMiejsc">
+                                    </div>
+
+                                    @if (car.dostepny == false) {
+                                        <div class="form-check">
+                                            <input class="form-check-input" readonly type="checkbox" value="" id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Dostępny
+                                            </label>
+                                        </div>
+                                    }
+                                    else {
+                                        <div class="form-check">
+                                            <input class="form-check-input" readonly type="checkbox" value="" id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Dostępny
+                                            </label>
+                                        </div>
+                                    }
+
+                                </form>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="submit" class="btn btn-success" form="@("edit_" + car.id )">Zapisz</button>
+                    <button type="reset" class="btn btn-warning" form="@("edit_" + car.id )">Reset</button>
+                    <button type="submit" class="btn btn-danger" form="@("remove_" + car.id )">Usuń</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="modal fade" id="creator" tabindex="-1" role="dialog" aria-labelledby="test" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tryb Edycji</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container">
+                        <div class="col-sm">
+                            <form action="@Url.Action("AddCar")" method="POST" id="crator_car">
+                                <div class="form-group">
+                                    <label for="Type">Marka</label>
+                                    <select class="form-control" name="idmarka">
+                                        @for (int i = 0; i < Model.Brands.Count; i++) {
+                                            <option value=@(i+1)>@Model.Brands[i].nazwa</option>
+                                        }
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Model</label>
+                                    <input type="text" class="form-control" name="model" placeholder="model">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Nr Tablicy Rejestracyjnej</label>
+                                    <input type="text" class="form-control" name="nrTablicyRej" placeholder="nrTablicyRej" >
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">nr Vin</label>
+                                    <input type="text" class="form-control" name="nrVin" placeholder="nrVin" >
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Rocznik</label>
+                                    <input type="text" class="form-control" name="rocznik" placeholder="rocznik" >
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Cena wypożyczenia za 1 dzień</label>
+                                    <input type="text" class="form-control" name="cenaWypozyczenia" placeholder="cenaWypozyczenia" >
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Ilość dostępnych miejsc</label>
+                                    <input type="text" class="form-control" name="iloscMiejsc" placeholder="iloscMiejsc">
+                                </div>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="dostepny" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Dostępny
+                                        </label>
+                                    </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="submit" class="btn btn-success" form="crator_car">Zapisz</button>
+                <button type="reset" class="btn btn-warning" form="crator_car">Reset</button>
+                <button type="submit" class="btn btn-danger" form="crator_car">Usuń</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+

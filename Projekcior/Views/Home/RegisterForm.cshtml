@@ -1,0 +1,29 @@
+﻿
+
+<form class="form-signin text-center" action="@Url.Action("testlogin")" method="POST">
+
+    <h1 class="h3 mb-4 font-weight-normal">Zarejestrowac</h1>
+
+    @if (!ViewData.ModelState.IsValid) {
+        <div class="alert alert-danger" role="alert" style="font-size: small;">
+            @Html.ValidationMessage("LoginError")
+        </div>
+    }
+
+    <input type="email" required name="email" class="form-control mb-2" placeholder="Email" autofocus="">
+    <input type="password" required name="haslo" class="form-control mb-2" placeholder="Hasło">
+    <input type="text" required name="imie" class="form-control mb-2" placeholder="Imie">
+    <input type="text" required name="nazwisko" class="form-control mb-2" placeholder="Nazwisko">
+    <input type="number" required name="pesel" class="form-control mb-2" placeholder="Pesel">
+    <input type="text" required name="adres" class="form-control mb-2" placeholder="Adres zamieszkania">
+    <input type="date" required name="dataUrodzenia" class="form-control mb-2" placeholder="Data Urodzenia">
+    <input type="number" required name="nrTelefonu" class="form-control mb-2" placeholder="Nr telefonu">
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Zarejestruj się</button>
+    <hr />
+    <button class="btn btn-lg btn-outline-secondary btn-block mb-4" type="button" onclick="window.location='@Url.Action("Login", "Home")'">Masz już konto? Zaloguj sie!</button>
+
+    <a onclick="window.location='@Url.Action("Index", "Home")'" style="cursor: pointer">Wróć do strony głównej</a>
+</form>
+
+

@@ -1,0 +1,79 @@
+﻿@foreach (var employee in Model) {
+<div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tryb Edycji</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-sm">
+                            <form action="@Url.Action("EditMe")" method="POST" id="@("edit_" + employee.id )">
+                                <div class="form-group">
+                                    <label for="email">Imie</label>
+                                    <input type="text" class="form-control" name="imie" placeholder="@employee.imie" value="@employee.imie">
+                                </div>
+                                <input type="hidden" name="ID" value="@employee.id" />
+
+                                <div class="form-group">
+                                    <label for="imie">Nazwisko</label>
+                                    <input type="text" class="form-control" name="nazwisko" placeholder="@employee.nazwisko" value="@employee.nazwisko">
+                                </div>
+
+                                <!--############ Nazwisko #########################-->
+
+                                <div class="form-group">
+                                    <label for="imie">Email</label>
+                                    <input type="email" class="form-control" name="email" placeholder="@employee.email" value="@employee.email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Haslo</label>
+                                    <input type="password" class="form-control" name="haslo" placeholder="@employee.haslo" value="@employee.haslo">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Pesel</label>
+                                    <input type="text" class="form-control" name="pesel" placeholder="@employee.pesel" value="@employee.pesel">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Adres</label>
+                                    <input type="text" class="form-control" name="adres" placeholder="@employee.adres" value="@employee.adres">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Data Urodzenia</label>
+                                    <input type="text" class="form-control" name="dataUrodzenia" placeholder="@employee.dataUrodzenia" value="@employee.dataUrodzenia">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Nr Telefonu</label>
+                                    <input type="text" class="form-control" name="nrTelefonu" placeholder="@employee.nrTelefonu" value="@employee.nrTelefonu">
+                                </div>
+
+                            </form>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="submit" class="btn btn-success" form="@("edit_" + employee.id )">Zapisz</button>
+                <button type="reset" class="btn btn-warning" form="@("edit_" + employee.id )">Reset</button>             
+
+            </div>
+        </div>
+    </div>
+}

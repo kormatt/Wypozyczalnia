@@ -1,0 +1,225 @@
+﻿@model List<Projekcior.Models.Klient>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Imie</th>
+            <th scope="col">Nazwisko</th>
+            <th scope="col"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#creator" style="float: right;">Dodaj Rekord</button></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var client in Model) {
+<tr>
+    <th scope="row">@client.id</th>
+    <td>@client.imie</td>
+    <td>@client.nazwisko</td>
+    <td>
+        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#@("edit" + client.id ) " style="float: right;">  Edytuj  </button>
+    </td>
+</tr>}
+    </tbody>
+</table>
+
+
+
+
+@foreach (var employee in Model) {
+<div class="modal fade" id="@("edit" + employee.id )" tabindex="-1" role="dialog" aria-labelledby="test" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tryb Edycji</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-sm">
+                            <form action="@Url.Action("EditClient")" method="POST" id="@("edit_" + employee.id )">
+                                <div class="form-group">
+                                    <label for="email">Imie</label>
+                                    <input type="text" class="form-control" name="imie" placeholder="@employee.imie" value="@employee.imie">
+                                </div>
+                                <input type="hidden" name="ID" value="@employee.id" />
+
+                                <div class="form-group">
+                                    <label for="imie">Nazwisko</label>
+                                    <input type="text" class="form-control" name="nazwisko" placeholder="@employee.nazwisko" value="@employee.nazwisko">
+                                </div>
+
+                                <!--############ Nazwisko #########################-->
+
+                                <div class="form-group">
+                                    <label for="Type">Typ Konta</label>
+                                    <select class="form-control" name="typ">
+                                        @*<option value="1">Szef</option>*@
+                                        <option value="2">Pracownik</option>
+                                        <option value="3" selected>Klient</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Email</label>
+                                    <input type="email" class="form-control" name="email" placeholder="@employee.email" value="@employee.email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Haslo</label>
+                                    <input type="password" class="form-control" name="haslo" placeholder="@employee.haslo" value="@employee.haslo">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Pesel</label>
+                                    <input type="text" class="form-control" name="pesel" placeholder="@employee.pesel" value="@employee.pesel">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Adres</label>
+                                    <input type="text" class="form-control" name="adres" placeholder="@employee.adres" value="@employee.adres">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Data Urodzenia</label>
+                                    <input type="text" class="form-control" name="dataUrodzenia" placeholder="@employee.dataUrodzenia" value="@employee.dataUrodzenia">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="imie">Nr Telefonu</label>
+                                    <input type="text" class="form-control" name="nrTelefonu" placeholder="@employee.nrTelefonu" value="@employee.nrTelefonu">
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="col-sm">
+                            <form action="@Url.Action("DeleteClient")" method="POST" id="@("remove_" + employee.id )">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Imie</label>
+                                    <input type="text" readonly class="form-control-plaintext" name="email" value="@employee.imie">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Nazwisko</label>
+                                    <input type="text" readonly class="form-control-plaintext" name="haslo" value="@employee.nazwisko">
+                                </div>
+
+                                <input type="hidden" name="id" value="@employee.id" />
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Typ Konta</label>
+
+                                    @switch (employee.typ) {
+                                        case 1:
+                    <input type="text" readonly class="form-control-plaintext" name="typ" value="1"> break;
+                                        case 2:
+                    <input type="text" readonly class="form-control-plaintext" name="typ" value="2"> break;
+                                        case 3:
+                    <input type="text" readonly class="form-control-plaintext" name="typ" value="3">break;
+
+                                    }
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email</label>
+                                    <input type="text" readonly class="form-control-plaintext" name="email" value="@employee.email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Haslo</label>
+                                    <input type="text" readonly class="form-control-plaintext" name="haslo" value="@employee.haslo">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Pesel</label>
+                                    <input type="text" readonly class="form-control-plaintext" name="pesel" value="@employee.pesel">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Adres</label>
+                                    <input type="text" readonly class="form-control-plaintext" name="adres" value="@employee.adres">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Data Urodzenia</label>
+                                    <input type="date" readonly class="form-control-plaintext" name="dataUrodzenia" value="@employee.dataUrodzenia">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Nr Telefonu</label>
+                                    <input type="text" readonly class="form-control-plaintext" name="nrTelefonu" value="@employee.nrTelefonu">
+                                </div>
+
+                            </form>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="submit" class="btn btn-success" form="@("edit_" + employee.id )">Zapisz</button>
+                <button type="reset" class="btn btn-warning" form="@("edit_" + employee.id )">Reset</button>
+                <button type="submit" class="btn btn-danger" form="@("remove_" + employee.id )">Usuń Pracownika</button>
+
+            </div>
+        </div>
+    </div>
+</div>}
+
+<div class="modal fade" id="creator" tabindex="-1" role="dialog" aria-labelledby="test" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tryb Edycji</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-sm">
+                            <form action="@Url.Action("AddClient")" method="POST" id="creatorEmp">
+
+                                <div class="form-gruop mb-4 w-50 ml-auto mr-auto">
+                                    <input type="email" required name="email" class="form-control mb-2" placeholder="Email" autofocus="">
+                                    <input type="password" required name="haslo" class="form-control mb-2" placeholder="Hasło">
+                                    <input type="text" required name="imie" class="form-control mb-2" placeholder="Imie">
+                                    <input type="text" required name="nazwisko" class="form-control mb-2" placeholder="Nazwisko">
+                                    <input type="number" required name="pesel" class="form-control mb-2" placeholder="Pesel">
+                                    <input type="text" required name="adres" class="form-control mb-2" placeholder="Adres zamieszkania">
+                                    <input type="date" required name="dataUrodzenia" class="form-control mb-2" placeholder="Data Urodzenia">
+                                    <input type="number" required name="nrTelefonu" class="form-control mb-2" placeholder="Nr telefonu">
+                                    <input type="hidden" name="TypKonta" class="form-control" value="2">
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="submit" class="btn btn-success" form="creatorEmp">Zapisz</button>
+                <button type="reset" class="btn btn-warning" form="creatorEmp">Reset</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Odrzuć zmiany</button>
+
+            </div>
+        </div>
+    </div>
+</div>

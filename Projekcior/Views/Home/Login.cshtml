@@ -1,0 +1,21 @@
+﻿<form class="form-signin text-center" action="@Url.Action("testlogin")" method="POST">
+
+    <h1 class="h3 mb-4 font-weight-normal">Prosze sie zalogować</h1>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger" role="alert" style="font-size: small;">
+            @Html.ValidationMessage("LoginError")
+        </div>
+    }
+
+    <input type="email" name="email" class="form-control mb-2" placeholder="Email" autofocus="">
+
+    <input type="password" name="haslo" class="form-control mb-3" placeholder="Hasło">
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Zaloguj</button>
+    <hr />
+    <button class="btn btn-lg btn-outline-secondary btn-block mb-4" type="button" onclick="window.location='@Url.Action("RegisterForm", "Home")'">Zarejestruj sie!</button>
+
+    <a onclick="window.location='@Url.Action("Index", "Home")'" style="cursor: pointer">Wróć do strony głównej</a>
+</form>
