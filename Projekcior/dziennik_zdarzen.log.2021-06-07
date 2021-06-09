@@ -1,0 +1,143 @@
+2021-06-07 00:00:00,597 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:00:00,599 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:00:01,162 [6] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:00:08,875 [6] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:00:10,613 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:00:16,472 [6] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-07 00:00:19,777 [7] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-07 00:00:20,626 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:00:25,931 [6] INFO Projekcior.MvcApplication Car with a registration no.PO 9988 has been edited
+2021-06-07 00:00:30,633 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:00:34,456 [6] INFO Projekcior.MvcApplication Car with a registration no.PO 9988 has been edited
+2021-06-07 00:00:40,643 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:00:47,943 [6] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:00:50,657 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:01:34,706 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:01:48,155 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:01:48,157 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:01:48,678 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:01:54,050 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:02:09,862 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:02:24,200 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:02:24,202 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:02:24,718 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:02:32,089 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:02:34,217 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:02:44,226 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:02:54,229 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:02:59,012 [7] INFO Projekcior.MvcApplication Reservation no.1 has been edited
+2021-06-07 00:03:04,236 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:03:05,530 [8] INFO Projekcior.MvcApplication Reservation no.1 has been edited
+2021-06-07 00:03:14,252 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:03:24,846 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:03:37,638 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:06:21,295 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:06:21,297 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:06:21,805 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:06:27,999 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:06:31,313 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:07:11,459 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:07:21,473 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:07:31,479 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:07:41,489 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:07:51,500 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:08:01,515 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:08:11,519 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:08:16,431 [7] INFO Projekcior.MvcApplication Reservation no.1 has been edited
+2021-06-07 00:08:20,035 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:08:21,526 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:08:23,646 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:08:31,538 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:08:41,553 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:09:02,842 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:09:02,844 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:09:03,354 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:09:09,504 [7] WARN Projekcior.MvcApplication Client admin@admin.pl has not logged into application
+2021-06-07 00:09:12,862 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:09:13,713 [8] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:10:09,875 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:10:35,933 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:10:45,939 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:10:55,941 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:12:02,993 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:12:18,513 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:12:18,515 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:12:19,021 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:12:24,789 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:13:21,723 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:13:31,727 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:13:41,735 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:13:51,745 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:13:54,621 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:14:01,752 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:14:11,757 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:14:21,767 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:16:04,739 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:16:04,740 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:16:11,242 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:16:14,749 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:16:15,258 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:16:24,751 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:16:34,760 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:16:44,769 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:16:54,782 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:17:04,784 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:17:14,797 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:17:24,799 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:17:44,313 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:17:47,025 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:17:54,318 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:18:04,322 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:18:14,331 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:18:24,344 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:18:34,359 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:18:44,373 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:18:54,383 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:19:04,388 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:19:14,397 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:19:24,408 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:19:34,408 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:19:44,421 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:19:54,436 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:20:04,446 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:20:14,457 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:20:24,472 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:20:34,487 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:20:44,489 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:20:54,489 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:21:04,500 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:21:14,504 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:21:24,506 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:21:33,178 [8] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:21:34,521 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:21:39,139 [12] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:22:06,179 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:22:16,182 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:24:38,388 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:24:38,388 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:24:38,594 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:24:44,178 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:24:48,395 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:24:56,273 [8] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:24:58,405 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:25:00,855 [9] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:26:51,418 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:26:51,419 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:26:51,935 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:27:00,116 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:27:01,437 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:27:11,440 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:27:21,455 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:27:38,695 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:28:52,840 [1] INFO Projekcior.MvcApplication Application started
+2021-06-07 00:28:52,842 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:28:53,358 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-07 00:28:59,388 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-07 00:29:05,029 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:29:15,411 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:29:25,414 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:29:35,422 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:29:45,429 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:29:55,439 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:30:05,440 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-07 00:30:15,452 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application

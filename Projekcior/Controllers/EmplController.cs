@@ -80,7 +80,7 @@ namespace Projekcior.Controllers
         public ActionResult AddRental(Rezerwacja res) {
             Pracownik.DodajRezerwacje(res);
             this.GetLog().Info("Reservation no." + res.id + " has been added");
-            return Content(res.dataRozpoczecia.ToString("yyyy-MM-dd"));
+            return Redirect(Request.UrlReferrer.ToString());
         }
 
         [HttpPost]

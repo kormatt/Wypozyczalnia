@@ -9,12 +9,17 @@ namespace Projekcior.Models {
  
 
         public static DbConnection GetConnection() {
-            if (connection == null) {
-                connection = new MySqlConnection("server=localhost;port=3325;user=root;password=ZAQ!2wsx;database=Car-go_db");
-                connection.Open();
+            try {
+                if (connection == null) {
+                    connection = new MySqlConnection("server=remotemysql.com;port=3306;user=3MJdM8nmSo;password=k86zfOZW2n;database=3MJdM8nmSo");
+                    connection.Open();
+                }
+                if (connection.State != System.Data.ConnectionState.Open) {
+                    throw new Exception("Database Conenction Broken");
+                }
             }
-            if (connection.State != System.Data.ConnectionState.Open) {
-                throw new Exception("Database Conenction Broken");
+            catch (Exception) {
+                GetConnection();
             }
             return connection;
         }

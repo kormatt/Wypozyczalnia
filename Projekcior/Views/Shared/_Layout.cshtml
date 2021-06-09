@@ -38,15 +38,22 @@
                             <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "nav-item font-weight-bold  " : "nav-item")">
                                 @Html.ActionLink("Kontakt", "Contact", "Home", new object { }, new { @class = "nav-link text-white" })
                             </li>
-                            @if (Session["Email"] == null){ //user is not logged
-                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Login" ? "nav-item font-weight-bold  " : "nav-item")">
-                                    @Html.ActionLink("Zaloguj", "Login", "Home", new object { }, new { @class = "nav-link text-white" })
-                                </li>
-                            }else{ //user is logged
-                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Login" ? "nav-item font-weight-bold  " : "nav-item")">
-                                @Html.ActionLink("Wyloguj "+ Session["Email"], "logout", "Home", new object { }, new { @class = "nav-link text-white" })
-                            </li>
-                            }
+                            @if (Session["Email"] == null) { //user is not logged
+                        <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Login" ? "nav-item font-weight-bold  " : "nav-item")">
+                            @Html.ActionLink("Zaloguj", "Login", "Home", new object { }, new { @class = "nav-link text-white" })
+                        </li>
+ }
+                    else { //user is logged
+                        <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Login" ? "nav-item font-weight-bold  " : "nav-item")">
+                            @Html.ActionLink("Wyloguj " + Session["Email"], "logout", "Home", new object { }, new { @class = "nav-link text-white" })
+                        </li>
+}
+                   @if (Session["Email"] != null) { //user is logged
+                        <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Login" ? "nav-item font-weight-bold  " : "nav-item")">
+                            @Html.ActionLink("Panel", "LoggedIndex", "Home", new object { }, new { @class = "nav-link text-white" })
+                        </li>
+}
+
                         </ul>
 
                     </div>

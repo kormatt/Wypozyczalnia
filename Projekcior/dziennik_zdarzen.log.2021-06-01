@@ -1,0 +1,88 @@
+2021-06-01 22:21:17,769 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:21:17,770 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:21:18,358 [10] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:21:27,782 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:22:24,477 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:22:34,489 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:24:30,948 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:24:30,949 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:24:31,489 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:27:23,403 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:27:23,406 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:27:23,974 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:27:37,299 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:27:49,904 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:27:49,906 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:27:50,462 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:27:59,921 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:31:02,869 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:31:02,870 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:31:03,423 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:31:12,877 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:47:45,364 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:47:45,365 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:47:45,890 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:47:55,383 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:48:28,208 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:48:28,210 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:48:28,735 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:48:38,221 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:49:25,334 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:49:25,335 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:49:25,910 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:52:40,516 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:52:40,518 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:52:41,056 [6] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:56:02,720 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 22:56:02,721 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 22:56:03,352 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 22:56:12,740 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:03:06,430 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:03:06,430 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:03:06,594 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:16:46,852 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:16:46,853 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:16:47,081 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:18:40,220 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:18:40,222 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:18:40,780 [6] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:18:50,240 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:19:56,378 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:19:56,380 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:19:56,919 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:22:19,945 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:22:19,947 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:22:20,167 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:22:56,515 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:22:56,515 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:22:57,027 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:24:03,068 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:24:03,068 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:24:03,247 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:24:13,085 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:29:11,439 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:29:11,440 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:29:11,961 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:30:33,886 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:30:53,459 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:31:09,111 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:31:33,333 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:31:33,333 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:31:33,863 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:31:43,346 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:32:00,628 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:32:00,630 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:32:00,810 [8] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:32:14,441 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:32:14,441 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:32:14,613 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:42:47,685 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:42:47,686 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:42:47,879 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:43:11,092 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:43:11,093 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:43:11,609 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:43:41,922 [1] INFO Projekcior.MvcApplication Application started
+2021-06-01 23:43:41,923 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-01 23:43:42,597 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-01 23:43:51,941 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application

@@ -45,6 +45,7 @@ namespace Projekcior.Controllers {
             {
                 Session["Email"] = klient.email;
                 Session["Type"] = klient.typ;
+                Session["ID"] = klient.getid();
                 this.GetLog().Info("Client " + klient.email + " has logged into application");
                 return RedirectToAction("LoggedIndex");
                 //return Content(Session["Type"].ToString());
@@ -86,8 +87,19 @@ namespace Projekcior.Controllers {
 
         public ActionResult EditAccount() {
 
-            return View( Pracownik.WyswietlKlienta( (int)Session["ID"] ) );
-            //return View( Pracownik.WyswietlKlienta( 10 ) );
+            return View( Pracownik.WyswietlKlienta(int.Parse(Session["ID"].ToString())) );
+            //return View( Pracownik.WyswietlKlienta( 3 ) );
+            //return Content(Session["ID"].ToString()+ int.Parse(Session["ID"].ToString()).GetType());
+        }
+        public ActionResult AddRental() {
+            MultipleList2 multiple = new MultipleList2();
+            multiple.Brands = Pracownik.WyswietlMarki();
+            multiple.Cars = Pracownik.WyswietlSamochody();
+            multiple.Clients = Szef.WyswietlWszystkicj();
+            //multiple.Rentals = Pracownik.PokazRezerwacje((int)Session["ID"]);
+            multiple.Rentals = Pracownik.PokazRezerwacje(int.Parse(Session["ID"].ToString()));
+            return View(multiple);
+
         }
         public ActionResult EditMe(Klient klient) {
             klient.typ = (int)Session["Type"];
@@ -101,12 +113,18 @@ namespace Projekcior.Controllers {
             multiple.Brands = Pracownik.WyswietlMarki();
             multiple.Cars = Pracownik.WyswietlSamochody();
             multiple.Clients = Szef.WyswietlWszystkicj();
-            multiple.Rentals = Pracownik.PokazRezerwacje((int)Session["ID"]));
-
+            //multiple.Rentals = Pracownik.PokazRezerwacje((int)Session["ID"]);
+            multiple.Rentals = Pracownik.PokazRezerwacje(int.Parse(Session["ID"].ToString()));
             return View(multiple);
         }
         [HttpPost]
         public ActionResult AddRental(Rezerwacja res) {
+            Pracownik.DodajRezerwacje(res);
+            this.GetLog().Info("Reservation no." + res.id + " has been added");
+            return RedirectToAction("ShowRental");
+        }
+        public ActionResult AddRentalClient(Rezerwacja res) {
+            res.Klient = int.Parse(Session["ID"].ToString());
             Pracownik.DodajRezerwacje(res);
             this.GetLog().Info("Reservation no." + res.id + " has been added");
             return RedirectToAction("ShowRental");

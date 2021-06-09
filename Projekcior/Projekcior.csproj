@@ -468,6 +468,7 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\EditAccount.cshtml" />
     <Content Include="Views\Home\ShowRental.cshtml" />
+    <Content Include="Views\Home\AddRental.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

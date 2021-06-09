@@ -22,7 +22,7 @@
                 if (res.Samochod == Cars.id) {
 <td>@Client.imie</td>
                                 <td>@Client.nazwisko</td>
-                                                                <td>@Cars.marka</td>
+                                <td>@Model.Brands[Cars.idmarka - 1].nazwa</td>
                                                                                                 <td>@Cars.model</td>
                                                                                                                                 <td>@res.dataZakonczenia</td>
                                                                                                                                                                 <td>
@@ -65,32 +65,6 @@
                                                     <label for="email">Data zakonczenia rezerwacji</label>
                                                     <input type="text" class="form-control" name="dataZakonczenia" placeholder="@res.dataZakonczenia" value="@res.dataZakonczenia">
                                                 </div>
-
-                                                <div class="form-group">
-                                                    <label for="email">Koszt Rezerwacji</label>
-                                                    <input type="text" class="form-control" name="cena" placeholder="@res.cena" value="@res.cena">
-                                                </div>
-                                                <hr />
-                                                <h2>Dane Klienta</h2>
-                                                <hr />
-
-                                                <!-- correct -->
-                                                <div class="form-group">
-                                                    <select class="form-control" name="Klient">
-                                                        @foreach (var Client in Model.Clients) {
-                                        <option value=@Client.id>@(Client.id+" - "+Client.imie+" "+Client.nazwisko)</option>}
-                                                    </select>
-                                                </div>
-
-                                                <hr />
-                                                <h2>Dane Auta</h2>
-                                                <hr />
-                                                <div class="form-group">
-                                                    <select class="form-control" name="Samochod">
-                                                        @foreach (var Car in Model.Cars) {
-                                        <option value=@Car.id>@(Car.id+" - "+ Car.marka+" "+ Car.model)</option>}
-                                                    </select>
-                                                </div>
                                             </form>
                                         </div>
 
@@ -109,37 +83,6 @@
                                                 <div class="form-group">
                                                     <label for="email">Data zakonczenia rezerwacji</label>
                                                     <input type="text" readonly class="form-control" name="dataZakonczenia" placeholder="@res.dataZakonczenia" value="@res.dataZakonczenia">
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="email">Koszt Rezerwacji</label>
-                                                    <input type="text" readonly class="form-control" name="cena" placeholder="@res.cena" value="@res.cena">
-                                                </div>
-                                                <hr />
-                                                <h2>Dane Klienta</h2>
-                                                <hr />
-
-                                                <!-- correct -->
-                                                <div class="form-group">
-                                                    <select readonly disabled="1" class="form-control" name="Klient">
-                                                        @foreach (var Client in Model.Clients) {
-                                                            if (res.Klient == Client.id) {
-                                        <option value=@Client.id>@(Client.id+" - "+Client.imie+" "+Client.nazwisko)</option>}
-                                                        }
-                                                    </select>
-                                                </div>
-
-                                                <hr />
-                                                <h2>Dane Auta</h2>
-                                                <hr />
-                                                <div class="form-group">
-                                                    <select readonly disabled="1" class="form-control" name="Samochod">
-                                                        @foreach (var Car in Model.Cars) {
-                                                            if (res.Samochod == Car.id) {
-                                        <option selected="selected" value=@Car.id>@(Car.id+" - "+ Car.marka+" "+ Car.model)> </option>}
-                                                        }
-
-                                                    </select>
                                                 </div>
                                             </form>
                                         </div>
@@ -189,23 +132,7 @@
                                 <div class="form-group">
                                     <label for="email">Data zakonczenia rezerwacji</label>
                                     <input type="date" class="form-control" name="dataZakonczenia" placeholder="" value="">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="email">Koszt Rezerwacji</label>
-                                    <input type="number" class="form-control" name="cena" placeholder="" value="" step=".01">
-                                </div>
-                                <hr />
-                                <h2>Dane Klienta</h2>
-                                <hr />
-
-                                <div class="form-group">
-                                    <select class="form-control" name="Klient">
-                                        @foreach (var Client in Model.Clients) {
-                            <option value=@Client.id>@(Client.id+" - "+Client.imie+" "+Client.nazwisko)</option>
-}
-                                    </select>
-                                </div>
+                                </div>                                
 
                                 <hr />
                                 <h2>Dane Auta</h2>

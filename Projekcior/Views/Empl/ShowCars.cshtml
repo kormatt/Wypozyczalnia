@@ -17,7 +17,7 @@
         @foreach (var car in Model.Cars) {
             <tr>
                 <th scope="row">@car.id</th>
-                <td>@car.marka</td>
+                <td>@Model.Brands[car.idmarka-1].nazwa</td>
                 <td>@car.model</td>
                 <td>@car.nrTablicyRej</td>
                 <td>
@@ -112,7 +112,7 @@
                                         <label for="Type">Marka</label>
                                         <select class="form-control" name="idmarka">
                                             @for (int i = 0; i < Model.Brands.Count; i++) {
-                                                <option value=@(i+1)>@Model.Brands[i].nazwa</option>
+                                            <option value=@(i+1)>@Model.Brands[car.idmarka - 1].nazwa</option>
                                             }
                                         </select>
                                     </div>

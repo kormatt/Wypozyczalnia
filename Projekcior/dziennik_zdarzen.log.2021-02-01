@@ -1,0 +1,393 @@
+2021-02-01 00:02:46,268 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:02:46,268 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:02:56,273 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:03:06,274 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:03:16,274 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:03:24,711 [12] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-02-01 00:03:26,275 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:03:36,277 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:03:46,278 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:03:56,279 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:03:59,859 [12] INFO Projekcior.MvcApplication Emlpoyee test test has been added
+2021-02-01 00:04:06,280 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:04:06,577 [10] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:04:12,162 [11] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:04:16,281 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:04:26,282 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:04:27,838 [11] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:04:33,813 [10] WARN Projekcior.MvcApplication Car with a registration no.asjdghaserasfd312 has been deleted
+2021-02-01 00:04:36,283 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:04:42,733 [10] INFO Projekcior.MvcApplication Car with a registration no.PO 213722 has been added
+2021-02-01 00:04:46,283 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:04:56,284 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:05:06,285 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:05:16,286 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:05:26,287 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:05:36,288 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:05:46,289 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:06:14,617 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:06:24,620 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:06:30,254 [24] INFO Projekcior.MvcApplication Reservation no.7 has been edited
+2021-02-01 00:06:34,621 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:06:44,622 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:07:06,411 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:07:06,413 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:07:06,931 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:07:13,067 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-02-01 00:07:16,418 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:07:26,418 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:07:36,419 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:08:35,691 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:08:35,692 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:08:35,852 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:08:41,807 [12] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-02-01 00:08:45,698 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:08:49,091 [7] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:09:30,153 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:09:30,154 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:09:30,662 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:09:35,143 [7] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:09:36,486 [7] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:09:40,161 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:09:40,280 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-02-01 00:09:44,585 [9] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:09:50,162 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:10:00,163 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:10:10,164 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:10:20,165 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:10:30,166 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:10:34,817 [7] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:10:40,167 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:10:50,167 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:10:56,458 [7] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:11:00,168 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:11:10,168 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:11:20,169 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:11:30,171 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:11:40,171 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:11:50,172 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:12:00,173 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:12:10,173 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:12:20,174 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:12:30,174 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:12:40,175 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:12:50,176 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:12:59,691 [22] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:13:00,177 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:13:10,407 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:13:10,409 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:13:20,413 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:13:22,545 [7] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:13:46,189 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:13:46,192 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:13:50,693 [7] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:13:56,198 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:14:06,199 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:14:16,199 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:14:26,200 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:14:36,200 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:14:48,265 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:14:48,266 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:14:52,779 [7] WARN Projekcior.MvcApplication Emlpoyee   has been deleted
+2021-02-01 00:14:57,890 [8] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:14:58,272 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:15:34,529 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:15:34,530 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:15:38,187 [8] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:15:44,535 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:15:48,190 [8] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:15:50,852 [7] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:15:54,536 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:16:04,536 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:16:14,537 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:16:24,538 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:16:32,348 [9] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:32,969 [12] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:33,729 [7] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:33,921 [7] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:34,089 [11] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:34,279 [16] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:34,470 [7] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:34,538 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:16:35,230 [11] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:36,023 [8] WARN Projekcior.MvcApplication Client  has not logged into application
+2021-02-01 00:16:44,539 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:16:54,540 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:17:04,540 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:17:14,541 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:17:24,541 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:17:34,542 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:17:44,543 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:17:54,545 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:18:04,546 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:18:14,546 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:18:24,547 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:18:34,548 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:18:44,549 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:18:54,549 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:19:04,550 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:19:14,550 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:19:24,551 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:19:34,551 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:19:44,553 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:19:54,554 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:20:04,555 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:20:14,556 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:20:24,558 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:20:34,558 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:20:44,559 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:20:54,561 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:21:04,561 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:21:14,562 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:21:24,563 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:21:38,041 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:21:38,043 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:21:38,552 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:21:48,048 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:21:58,048 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:22:08,049 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:22:18,050 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:22:28,051 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:22:38,052 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:22:48,054 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:22:58,054 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:23:08,057 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:23:18,058 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:25:02,830 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:25:02,830 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:25:12,836 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:25:22,836 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:25:32,837 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:25:42,838 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:25:52,838 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:26:02,840 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:26:12,842 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:26:22,842 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:26:32,843 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:26:42,843 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:28:25,904 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:28:25,905 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:28:35,911 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:28:45,911 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:28:55,912 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:29:05,913 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:29:15,913 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:29:25,914 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:29:35,915 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:29:45,916 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:29:55,916 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:30:05,917 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:30:15,918 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:30:25,919 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:30:35,920 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:30:45,921 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:30:55,922 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:31:05,923 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:31:15,923 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:38:25,949 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:38:25,950 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:42:39,565 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:42:39,566 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:43:08,654 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:43:08,655 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:43:09,175 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:43:25,951 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:43:25,952 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:43:33,260 [7] WARN Projekcior.MvcApplication Customer( ) has been deleted
+2021-02-01 00:43:35,959 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:43:45,959 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:44:16,741 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:44:16,742 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:44:23,272 [7] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:44:26,747 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:44:26,751 [8] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:44:29,992 [7] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:44:35,611 [8] WARN Projekcior.MvcApplication Customer( ) has been deleted
+2021-02-01 00:44:36,748 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:46:03,965 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:46:03,964 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:46:08,697 [7] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:46:13,973 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:46:18,043 [7] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:46:23,974 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:46:33,975 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:46:43,976 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:46:53,977 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:47:03,977 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:47:13,977 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:47:28,544 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:47:28,546 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:47:36,041 [7] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:47:38,550 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:49:08,992 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:49:08,994 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:49:19,000 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:49:19,478 [7] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:49:29,001 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:49:49,316 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:49:49,316 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:49:58,875 [8] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:49:59,322 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:50:02,424 [7] INFO Projekcior.MvcApplication Customer(Matiko Korniko) detail have been changed
+2021-02-01 00:50:32,852 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:50:32,854 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:50:42,859 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:50:52,859 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:51:35,439 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:51:35,441 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:51:35,962 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 00:51:44,087 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:51:44,088 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:51:54,096 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:52:01,225 [7] INFO Projekcior.MvcApplication Customer(Mateusz Korniluk) detail have been added
+2021-02-01 00:52:04,097 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:52:05,218 [7] WARN Projekcior.MvcApplication Customer( ) has been deleted
+2021-02-01 00:53:18,626 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:53:18,627 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:53:22,808 [7] WARN Projekcior.MvcApplication Customer( ) has been deleted
+2021-02-01 00:53:28,632 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:54:02,754 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:54:02,755 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:54:12,760 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:55:24,970 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:55:24,971 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:55:34,978 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:55:44,978 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:55:54,979 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:56:04,980 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:56:14,980 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:56:24,981 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:56:34,982 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:56:44,982 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:56:54,983 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:57:04,983 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:57:14,984 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:57:24,985 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:57:34,985 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:57:44,986 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:57:54,987 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:58:02,597 [7] INFO Projekcior.MvcApplication Reservation no.0 has been edited
+2021-02-01 00:58:04,988 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:58:14,988 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:58:20,848 [9] INFO Projekcior.MvcApplication Reservation no.0 has been edited
+2021-02-01 00:58:50,725 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:58:50,726 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:59:00,733 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:59:10,734 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:59:20,734 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 00:59:36,215 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 00:59:36,217 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:00:26,540 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:00:26,541 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:01:20,759 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:01:36,511 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:01:53,054 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:02:16,037 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:02:16,038 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:02:47,048 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:02:47,049 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:02:52,529 [7] INFO Projekcior.MvcApplication Reservation no.7 has been edited
+2021-02-01 01:02:57,054 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:03:07,055 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:03:17,055 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:04:03,925 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:04:03,926 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:04:08,318 [7] INFO Projekcior.MvcApplication Reservation no.7 has been edited
+2021-02-01 01:04:25,985 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:04:25,986 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:07:53,177 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:07:53,178 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:07:58,968 [7] INFO Projekcior.MvcApplication Reservation no.7 has been edited
+2021-02-01 01:08:03,183 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:08:04,745 [8] INFO Projekcior.MvcApplication Reservation no.7 has been edited
+2021-02-01 01:08:56,978 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:08:56,980 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:09:06,984 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:10:24,818 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:10:24,819 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:10:31,129 [7] INFO Projekcior.MvcApplication Reservation no.7 has been edited
+2021-02-01 01:10:34,825 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:10:36,385 [8] INFO Projekcior.MvcApplication Reservation no.7 has been edited
+2021-02-01 01:10:44,825 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:15:25,604 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:15:25,606 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:15:35,611 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:16:42,753 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:20:29,141 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:22:15,112 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:22:15,113 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:22:25,118 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:28:55,592 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:28:55,593 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:29:05,598 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:31:23,844 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:31:23,844 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:31:30,726 [7] INFO Projekcior.MvcApplication Reservation no.0 has been added
+2021-02-01 01:31:33,850 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:33:38,914 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:33:38,916 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:34:58,043 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:34:58,044 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:35:17,314 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:35:17,315 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:35:35,468 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:35:35,469 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:35:45,477 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:35:47,222 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-02-01 01:35:55,478 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:36:05,479 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:36:15,479 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:36:25,480 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:36:43,276 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:36:43,278 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:36:53,284 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:37:25,259 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:37:25,260 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:37:35,266 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:37:45,267 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:37:55,268 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:38:05,269 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:38:15,270 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:38:25,271 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:38:35,271 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:38:45,272 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:52:15,699 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:52:15,700 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:52:45,087 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:52:45,088 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:53:47,614 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:53:47,615 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:54:27,168 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:54:27,170 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:54:37,176 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:54:47,177 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:55:32,012 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:55:32,012 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:55:42,018 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:56:59,247 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:56:59,248 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:58:20,847 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:58:20,849 [5] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:58:49,216 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 01:58:49,217 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:59:03,529 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 01:59:03,528 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:06:10,743 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:06:10,745 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 02:06:37,070 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:06:37,071 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 02:06:47,078 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 02:06:49,623 [7] INFO Projekcior.MvcApplication Client klient@klient.com has logged into application
+2021-02-01 02:07:28,418 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:07:28,420 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 02:07:43,136 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:07:43,136 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 02:07:43,661 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-02-01 02:07:52,003 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:07:52,004 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 02:08:21,886 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:08:21,886 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 02:10:51,976 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:10:51,976 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-02-01 02:11:15,642 [1] INFO Projekcior.MvcApplication Application started
+2021-02-01 02:11:15,642 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application

@@ -1,0 +1,103 @@
+2021-06-06 23:33:10,322 [1] INFO Projekcior.MvcApplication Application started
+2021-06-06 23:33:10,323 [9] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:33:10,977 [10] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:34:04,361 [1] INFO Projekcior.MvcApplication Application started
+2021-06-06 23:34:04,363 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:34:04,874 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:34:30,738 [1] INFO Projekcior.MvcApplication Application started
+2021-06-06 23:34:30,738 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:34:31,343 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:38:18,733 [1] INFO Projekcior.MvcApplication Application started
+2021-06-06 23:38:18,735 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:38:19,258 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:38:28,748 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:38:38,750 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:38:48,757 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:47:32,384 [1] INFO Projekcior.MvcApplication Application started
+2021-06-06 23:47:32,385 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:47:32,899 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:47:39,110 [7] WARN Projekcior.MvcApplication Client admin@admin.pl has not logged into application
+2021-06-06 23:47:42,394 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:47:52,403 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:47:53,505 [8] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-06 23:48:02,419 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:48:12,433 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:48:14,752 [7] INFO Projekcior.MvcApplication Emlpoyee Bartek Bartek has been edited
+2021-06-06 23:48:21,292 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:48:22,445 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:49:18,788 [1] INFO Projekcior.MvcApplication Application started
+2021-06-06 23:49:18,789 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:49:19,310 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:49:25,897 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-06 23:49:41,882 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:49:55,988 [1] INFO Projekcior.MvcApplication Application started
+2021-06-06 23:49:55,988 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:49:56,505 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:50:02,484 [12] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-06 23:50:06,009 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:50:12,145 [7] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-06 23:50:15,266 [8] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-06 23:50:16,019 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:50:25,906 [7] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-06 23:50:26,032 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:50:36,033 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:50:46,048 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:50:56,059 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:51:06,069 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:51:16,083 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:51:26,092 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:51:36,097 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:51:46,100 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:51:56,109 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:52:06,124 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:52:16,138 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:52:26,141 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:52:44,960 [1] INFO Projekcior.MvcApplication Application started
+2021-06-06 23:52:44,961 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:52:45,112 [7] DEBUG Projekcior.MvcApplication Accessing home page of the application
+2021-06-06 23:52:50,474 [7] INFO Projekcior.MvcApplication Client admin@admin.pl has logged into application
+2021-06-06 23:52:54,979 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:53:04,991 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:53:14,999 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:53:25,001 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:53:35,010 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:53:45,021 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:53:55,030 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:54:05,034 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:54:15,041 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:54:25,056 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:54:35,056 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:54:45,058 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:54:55,062 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:55:05,067 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:55:15,069 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:55:25,074 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:55:35,080 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:55:45,094 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:55:55,097 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:56:05,111 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:56:23,809 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:56:33,811 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:56:52,961 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:56:58,880 [7] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-06 23:57:02,974 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:57:03,181 [24] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-06 23:57:08,179 [8] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-06 23:57:12,987 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:57:21,538 [7] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-06 23:57:22,989 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:57:33,000 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:57:37,496 [7] INFO Projekcior.MvcApplication Car with a registration no.PO 2137 has been edited
+2021-06-06 23:57:43,011 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:57:53,012 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:58:03,022 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:58:13,030 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:58:23,032 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:58:33,129 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:58:43,139 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:58:53,142 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:59:03,158 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:59:13,168 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:59:23,174 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:59:33,185 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application
+2021-06-06 23:59:43,196 [6] DEBUG Projekcior.MvcApplication Heartbeat of the application

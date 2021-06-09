@@ -92,13 +92,12 @@ namespace Projekcior.Models
             var con = Database.GetConnection();
             var cmd = con.CreateCommand();
             //temp solution, to replace with custom sql function
-            cmd.CommandText = "SELECT * FROM CarList";
+            cmd.CommandText = "SELECT * FROM Samochody";
 
             var reader = cmd.ExecuteReader();
             while (reader.Read()) {
                 Samochod TempCar = new Samochod();
                 TempCar.id = reader.GetInt32(0);
-                TempCar.marka = reader.GetString(10);
                 TempCar.idmarka = reader.GetInt16(1);
                 TempCar.model = reader.GetString(2);
                 TempCar.nrTablicyRej = reader.GetString(3);
@@ -253,15 +252,15 @@ namespace Projekcior.Models
             var con = Database.GetConnection();
             var cmd = con.CreateCommand();
             //temp solution, to replace with custom sql function
-            cmd.CommandText = "INSERT INTO Rezerwacje ( idUzytkownika, idSamochodu, dataRozpoczecia, dataZakonczenia, cena) VALUES " +
-                                                      "@idUzytkownika ,@idSamochodu ,@dataRozpoczecia ,@dataZakonczenia , @cena ";
+            cmd.CommandText = "INSERT INTO Rezerwacje ( idUzytkownika, idSamochodu, dataRozpoczecia, dataZakonczenia, cena, idUbezpieczenia) VALUES " +
+                                                      "(@idUzytkownika ,@idSamochodu, @dataRozpoczecia, @dataZakonczenia, @cena ,@idubez); ";
 
             cmd.AddParameter("@idUzytkownika", Rentals.Klient);
             cmd.AddParameter("@idSamochodu", Rentals.Samochod);
             cmd.AddParameter("@dataRozpoczecia", Rentals.dataRozpoczecia.ToString("yyyy-MM-dd"));
             cmd.AddParameter("@dataZakonczenia", Rentals.dataZakonczenia.ToString("yyyy-MM-dd"));
             cmd.AddParameter("@cena", Rentals.cena);
-
+            cmd.AddParameter("@idubez", 3);
 
             cmd.ExecuteNonQuery();
 
@@ -284,7 +283,7 @@ namespace Projekcior.Models
 
             cmd.CommandText = "SELECT * FROM `Rezerwacje` " +
                                 "LEFT JOIN Uzytkownicy ON Rezerwacje.idUzytkownika = Uzytkownicy.idUzytkownika " +
-                                "LEFT JOIN CarList ON Rezerwacje.idSamochodu = CarList.idSamochodu";
+                                "LEFT JOIN Samochody ON Rezerwacje.idSamochodu = Samochody.idSamochodu";
 
             var reader = cmd.ExecuteReader();
             while (reader.Read()) {
@@ -310,10 +309,7 @@ namespace Projekcior.Models
             var con = Database.GetConnection();
             var cmd = con.CreateCommand();
 
-            cmd.CommandText = "SELECT * FROM `Rezerwacje` " +
-                                "LEFT JOIN Uzytkownicy ON Rezerwacje.idUzytkownika = Uzytkownicy.idUzytkownika " +
-                                "LEFT JOIN CarList ON Rezerwacje.idSamochodu = CarList.idSamochodu" +
-                                "WHERE Rezerwacje.idUzytkownika = '@id'";
+            cmd.CommandText = "SELECT * FROM `Rezerwacje` LEFT JOIN Uzytkownicy ON Rezerwacje.idUzytkownika = Uzytkownicy.idUzytkownika LEFT JOIN Samochody ON Rezerwacje.idSamochodu = Samochody.idSamochodu WHERE Rezerwacje.idUzytkownika = @id";
             cmd.AddParameter("@id", userid);
             var reader = cmd.ExecuteReader();
             while (reader.Read()) {

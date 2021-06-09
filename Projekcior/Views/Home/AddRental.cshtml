@@ -1,0 +1,47 @@
+﻿<div class="container">
+    <div class="row ">
+        <div class="col-sm">
+            <form action="@Url.Action("AddRentalClient")" method="POST" id="@("AddRentalClient")">
+
+                <hr />
+                <h2>Dane Rezerwacji</h2>
+                <hr />
+
+                <div class="form-group">
+                    <label for="email">Data rozpoczecia rezerwacji</label>
+                    <input type="date" class="form-control" name="dataRozpoczecia" placeholder="" value="">
+                </div>
+                <div class="form-group">
+                    <label for="email">Data zakonczenia rezerwacji</label>
+                    <input type="date" class="form-control" name="dataZakonczenia" placeholder="" value="">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Koszt Rezerwacji</label>
+                    <input type="number" class="form-control" name="cena" placeholder="" value="" step=".01">
+                </div>
+                <hr />
+                <h2>Dane Klienta</h2>
+                <hr />
+
+                <hr />
+                <h2>Dane Auta</h2>
+                <hr />
+                <div class="form-group">
+                    <select class="form-control" name="Samochod">
+                        @foreach (var Car in Model.Cars) {
+            <option value=@Car.id>@(Car.id+" - "+ Car.marka+" "+ Car.model)</option>}
+                    </select>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="submit" class="btn btn-success" form="@("AddRentalClient")">Zapisz</button>
+                    <button type="reset" class="btn btn-warning" form="@("AddRentalClient")">Reset</button>
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>
